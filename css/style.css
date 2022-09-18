@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.head1{
+        background: #1d75de;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+}
+.head1-element{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+padding: 10px;
+width: 1050px;
+}
+.head1-element button{
+    background: #1d75de;
+    border: 0;
+    font-size: 16px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 999;
+    color: #fff;
+}
+.search a{
+    color: white;
+
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    color: #fff;
+    font-size: 12px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+.spoti{
+    display: inline-flex;
+text-align: center;
+width: 12vw;
+padding: 0 5px;
+
+}
+.spotify-nav{
+    display: inline-flex;
+    height: 10vh;
+    /* margin-left: 245px; */
+    padding: 0px 44px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 100px;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    margin-left: 445px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 23px;
+}
+nav ul li a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.divider-vertical-second-menu{
+    border-right: 2px solid #FFF;
+    
+ }
+
+ footer{
+    background-color: black;
+    height: 75vh;
+    padding: 80px 0 50px;
+ }
+ .nav-footer{
+    display: flex;
+    flex-wrap: wrap;
+    /*  */
+    margin: 0 163px;
+   
+ }
+ /*  */
+ .spoty{
+    display: flex;
+    padding: 26px 0;
+    margin: 0 auto;
+ }
+ /*  */
+ .spotiy img{
+    display: flex;
+    height: 40px;
+ }
+ .middle-ccu{
+    display: flex;
+    width: 59%;
+    margin-left: 127px;
+ }
+ .totalfunctionality{
+    padding: 0 15px;
+    margin: 0;
+    line-height: 2.5;
+ }
+.totalfunctionality dt{
+    color: #919496;
+    margin: 20px 0;
+
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+}
+
+.link{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    
+    text-decoration: none;
+    color: white;
+}
+.totalfunctionality a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+
+main{
+    min-height: calc(100vh - 10vh - 80vh);
+}
+.insta-fb-twitter img{
+    width: 17px;
+height: 35px;
+    
+}
+.insta-fb-twitter{
+    display: flex;
+}
+.insta-fb-twitter ul{
+    display: flex;
+    align-items: baseline;
+padding: 21px 0px;
+}
+.insta-fb-twitter ul li{
+    display: flex;
+    width: 63px;
+justify-content: center;
+margin-right: 12px;
+}
+.insta-fb-twitter ul li a{
+    border-radius: 50%;
+background-color: #222326;
+}
